@@ -33,7 +33,7 @@ class MessagesController < ApplicationController
 
   def destory
     @message.destory
-    redirect_to root_path 
+    redirect_to root_path
   end
 
   private
