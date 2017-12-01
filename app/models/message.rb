@@ -1,2 +1,3 @@
-class Message < ApplicationRecord
+class Message < ActiveRecord::Base
+  belongs_to :user
 end
